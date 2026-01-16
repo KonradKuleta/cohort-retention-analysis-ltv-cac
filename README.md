@@ -2,8 +2,6 @@
 
 ## Preview (key visuals)
 
-## Preview (key visuals)
-
 ### Cohort retention (0–12 months)
 ![Cohort Retention Heatmap](assets/01_retention_heatmap_0-12m.png)
 
