@@ -2,14 +2,16 @@
 
 ## Preview (key visuals)
 
+## Preview (key visuals)
+
 ### Cohort retention (0–12 months)
-![Cohort Retention Heatmap](assets/cohort_retention_heatmap.png)
+![Cohort Retention Heatmap](assets/01_retention_heatmap_0-12m.png)
 
 ### Cumulative revenue per customer (0–12 months)
-![Cumulative Revenue Heatmap](assets/cumulative_revenue_heatmap.png)
+![Cumulative Revenue Heatmap](assets/02_cumulative_revenue_heatmap_0-12m.png)
 
 ### Unit economics (LTV:CAC vs target)
-![LTV:CAC by Channel](assets/ltv_cac_by_channel.png)
+![LTV:CAC by Channel](assets/03_ltv_cac_bar_margin45_2024.png)
 
 This project analyzes **customer retention cohorts** and **unit economics (LTV:CAC)** for a synthetic e-commerce dataset.  
 Goal: demonstrate practical marketing analytics skills (cohorts, retention, LTV proxy, CAC, channel comparison) and clear business interpretation.
