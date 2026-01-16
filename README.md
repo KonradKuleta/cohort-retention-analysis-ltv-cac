@@ -1,5 +1,16 @@
 # Cohort Retention Analysis + LTV:CAC (Marketing Analytics)
 
+## Preview (key visuals)
+
+### Cohort retention (0–12 months)
+![Cohort Retention Heatmap](assets/cohort_retention_heatmap.png)
+
+### Cumulative revenue per customer (0–12 months)
+![Cumulative Revenue Heatmap](assets/cumulative_revenue_heatmap.png)
+
+### Unit economics (LTV:CAC vs target)
+![LTV:CAC by Channel](assets/ltv_cac_by_channel.png)
+
 This project analyzes **customer retention cohorts** and **unit economics (LTV:CAC)** for a synthetic e-commerce dataset.  
 Goal: demonstrate practical marketing analytics skills (cohorts, retention, LTV proxy, CAC, channel comparison) and clear business interpretation.
 
@@ -26,15 +37,22 @@ Goal: demonstrate practical marketing analytics skills (cohorts, retention, LTV 
 ## Repository structure
 ```text
 .
-├── data_clean/                         # cleaned CSVs used by the analysis
+.
+├── assets/                              # PNGs used in README (preview on GitHub)
+│   ├── cohort_retention_heatmap.png
+│   ├── cumulative_revenue_heatmap.png
+│   ├── ltv_cac_by_channel.png
+│   └── ltv_cac_table.png                
+├── data_clean/                          # cleaned CSVs used by the analysis
 │   ├── dim_customers_2023_2025.csv
 │   ├── fact_orders_2023_2025.csv
 │   └── fact_marketing_spend_daily_2023_2025.csv
 ├── notebooks/
-│   ├── cohort_retention_ltv_cac_code.ipynb
-│   └── 00_data_preprocessing.ipynb     
+│   ├── 00_data_preprocessing.ipynb      # data cleaning / formatting notebook
+│   └── 01_cohort_retention_ltv_cac_code.ipynb
 ├── reports/
 │   ├── cohort_retention_ltv_cac.pdf
 │   └── cohort_retention_ltv_cac.html
 ├── requirements.txt
 └── README.md
+
